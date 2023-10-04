@@ -1,0 +1,50 @@
+body {
+    background-color: navajowhite;
+}
+
+#todayDiv {
+    position: absolute;
+    left: 15vw;
+    top: 5vh;
+    width: 300px;
+}
+#weekDiv {
+    position: absolute;
+    left: 40vw;
+    top: -.5vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+}
+#monthDiv {
+    position: absolute;
+    left: 65vw;
+    top: -.5vh;
+    margin-top: 50px;
+    width: 300px;
+}
+h2 {
+    font-size: 50px;
+}
+li {
+   margin: 10px;
+   font-size: 20px;
+   list-style-type: none;
+}
+@media only screen and (max-width: 600px) {
+    #todayDiv {
+        position: relative;
+        width: 300px;
+        left: 25vw;
+    }
+    #weekDiv {
+        position: relative;
+        top: 10vh;
+        left: 25vw;
+    }
+    #monthDiv {
+        position: relative; 
+        top: 18vh;
+        left: 25vw;
+    }
+} 
