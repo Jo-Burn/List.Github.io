@@ -142,3 +142,5 @@ function clearMo() {
     var all = document.getElementById('olM');
     all.replaceChildren();
 }
+localStorage.setItem('todAry', todAry);
+console.log(localStorage.getItem('todAry'));
