@@ -143,4 +143,5 @@ function clearMo() {
     all.replaceChildren();
 }
 localStorage.setItem('todAry', todAry);
-console.log(localStorage.getItem('todAry'));
+let retrieve = console.log(localStorage.getItem('todAry'));
+window.addEventListener('load', retrieve);
